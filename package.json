@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend 2good2eat",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldrey10/2Good2Eat-Backend.git"
+  },
+  "author": "Óscar Aldrey Blanco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldrey10/2Good2Eat-Backend/issues"
+  },
+  "homepage": "https://github.com/aldrey10/2Good2Eat-Backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0"
+  }
+}
